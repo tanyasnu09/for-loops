@@ -1,0 +1,26 @@
+//for loop example
+let n =prompt("enter n");
+n= Number.parseInt(n);
+let sum=0;
+for (let i=1; i<n;i++)
+  {
+    sum+=i;
+  }
+console.log(sum);
+//for in loop
+ let obj={
+   1:"tanya",
+   2:"harry"
+
+ }
+for (let i in obj){
+ console.log(i);
+}
+for (let i in obj){
+ console.log(obj[i]);
+}
+//for of loop
+for (let b of "harry")
+  {
+    console.log(b);
+  }
